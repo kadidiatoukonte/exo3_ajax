@@ -13,6 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="js/main.js">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -22,7 +23,23 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <form id="Product" action="index.html" method="post"><h1>Fiche produit</h1> <br>
+    <label for="">Titre: <input id="titre" type="text" name="" value=""></label><br>
+    <label for="">Phrase d'accroche: <input id="p_accroche" type="text" name="" value=""></label><br>
+    <label for="">Description du produit: <input id="description" type="text" name="" value=""></label><br>
+    <div class="button">
+        <button id="btn" type="submit">Envoyer</button>
+    </div>
+  </form>
+  <div id="product1">
+
+  </div>
+
+
+
+
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
